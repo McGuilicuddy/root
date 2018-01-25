@@ -1,0 +1,105 @@
+/* latin */
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Indie Flower'), local('IndieFlower'), url(https://fonts.gstatic.com/s/indieflower/v9/10JVD_humAd5zP2yrFqw6ugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Philosopher Regular'), local('Philosopher-Regular'), url(https://fonts.gstatic.com/s/philosopher/v9/OttjxgcoEsufOGSINYBGLY4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(https://static.pexels.com/photos/723491/pexels-photo-723491.jpeg) no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h1 {
+    font-family: 'Philosopher', cursive;
+    color: #f9f3f4;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 800%;
+    font-weight: 400;
+}
+
+.btn {
+    border: solid #d57fbc 2px;
+    border-radius: 9px;
+    font-family: 'Oswald', sans-serif;
+    color: #d57fbc;
+    font-size: 135%;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.btn:hover {
+    color: #fff;
+    border: solid #fff 3px;
+}
+
+p {
+    font-size: 160%;
+    line-height: 210%;
+    text-align: justfy;
+    margin: 3%;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .content h1 {
+        font-size: 300%;
+    }
+    .btn {
+        font-size: 80%;
+        padding: 7px 15px;
+    }
+    p {
+        font-size: 100%;
+        line-height: 160%;
+    }
+}
+
+
+
+
+
+
+
+
+
