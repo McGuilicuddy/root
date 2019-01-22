@@ -1,0 +1,231 @@
+/* latin */
+
+@font-face {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Rajdhani Regular'), local('Rajdhani-Regular'), url(https://fonts.gstatic.com/s/rajdhani/v7/tz3398jtBIhi1rrADn6BZvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(https://static.pexels.com/photos/290660/pexels-photo-290660.jpeg) no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+
+}
+
+
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: text-top;
+    width: 100%;
+    max-width: none;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h1 {
+    font-family: 'Rajdhani', serif;
+    color: #f9f3f4;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 500%;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+
+p {
+    border: solid #fff 2px;
+    border-radius: 9px;
+    color: aliceblue;
+    font-size: 150%;
+    font-family: 'Oswald', sans-serif;
+    line-height: 210%;
+    text-align: justfy;
+    margin: 3%;
+    font-family: sans-serif;
+    background-color: coral;
+    padding: 10px;
+
+}
+
+.container h1 {
+    border-radius: 5px;
+    font-size: 60px;
+    padding: 15px;
+    text-shadow: 80%;
+    margin: auto;
+}
+
+
+h2 {
+    color: coral;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#date {
+    color: coral;
+    background-color: aliceblue;
+    border: solid #fff 2px;
+    border-radius: 5px;
+    padding: 2px 4px;
+    width: 20%;
+    position: relative;
+    left: 40%;
+
+}
+
+#time {
+    color: coral;
+    background-color: aliceblue;
+    border: solid #fff 2px;
+    border-radius: 5px;
+    padding: 2px 4px;
+    width: 10%;
+    padding: 2px 4px;
+    width: auto;
+    margin: auto;
+}
+
+h3 {
+    width: auto;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 800;
+    line-height: 2.8;
+    letter-spacing: 0.8px;
+    margin: auto;
+}
+
+th {
+    border: none;
+}
+
+table {
+    text-align: center;
+    margin: 0px auto;
+    padding: 10%;
+}
+
+td {
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: coral;
+    width: auto;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+
+.home .btn {
+    border: solid #fff 2px;
+    border-radius: 5px;
+    padding: 2px 4px;
+    position: relative;
+    bottom: 18px;
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: 100;
+    text-transform: capitalize;
+    background-color: coral;
+}
+
+.btn:hover {
+    color: coral;
+    border: solid coral 2px;
+    background-color: #fff;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .content h1 {
+        font-size: 300%;
+    }
+    .btn {
+        font-size: 80%;
+        padding: 7px 15px;
+
+    }
+    p {
+        font-size: 100%;
+        line-height: 160%;
+    }
+    h2,
+    h3 {
+        font-size: 100%;
+        line-height: 160%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .content h1 {
+        font-size: 300%;
+    }
+    .btn {
+        font-size: 80%;
+        padding: 7px 15px;
+
+    }
+    p {
+        font-size: 100%;
+        line-height: 160%;
+    }
+    h2,
+    h3 {
+        font-size: 100%;
+        line-height: 160%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .content h1 {
+        font-size: 300%;
+    }
+    .btn {
+        font-size: 80%;
+        padding: 7px 15px;
+
+    }
+    p {
+        font-size: 100%;
+        line-height: 160%;
+    }
+    h2,
+    h3 {
+        font-size: 100%;
+        line-height: 160%;
+    }
+}
